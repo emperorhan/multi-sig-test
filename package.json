@@ -1,0 +1,22 @@
+{
+    "name": "multi-sig-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "emperorhan <iny27@naver.com>",
+    "license": "MIT",
+    "dependencies": {
+        "cross-fetch": "^3.0.4",
+        "eosjs": "^20.0.3",
+        "node": "^13.7.0",
+        "text-encoding": "^0.7.0",
+        "typescript": "^3.7.5"
+    },
+    "devDependencies": {
+        "@types/node": "^13.7.0",
+        "@types/text-encoding": "^0.0.35",
+        "ts-node-dev": "^1.0.0-pre.44"
+    },
+    "scripts": {
+        "start": "ts-node-dev --respawn --transpileOnly src/index.ts"
+    }
+}
